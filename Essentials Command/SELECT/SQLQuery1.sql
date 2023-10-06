@@ -1,0 +1,1 @@
+select movie_gross.movie_title , movie_gross.genre,director.director from movie_gross INNER JOIN director on movie_gross.movie_title = director.movie_title WHERE genre in ('Adventure') and mpaa_rating is not NULL
